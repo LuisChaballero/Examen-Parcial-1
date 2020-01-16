@@ -4,7 +4,7 @@ function addComment(){
         let comment = $('#userComment').val();
 
         if(name !== "" && comment !== ""){
-            
+            $('.seccionComments').append(`<div></div>`)
         }
     });
 
